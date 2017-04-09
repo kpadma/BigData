@@ -1,2 +1,2 @@
-# BigData
-Projects in BigData using Hadoop MapReduce, Apache Spark, MLlib etc
+* **Shakespeare_mapper.py & Shakespeare_reducer.py**: A MapReduce program that creates an inverted index of Shakespeare's novels. The novles are classified into 5 files - *comedies, glossary, histories, poems and tragedies*. The inverted index is a list of words and the files that contain them. **Dataset - shakespeare.tar.gz**
+* **Journal_mapper.py & Journal_reducer.py**: A MapReduce program to compute the number of times a term occurs across titles, for each author that are available across 250 files that store bibliographic information about publications. **Dataset - journals.zip**
